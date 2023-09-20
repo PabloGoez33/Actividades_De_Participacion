@@ -4,6 +4,7 @@ nombre1 = Elemento("A")
 nombre2 = Elemento("B")
 nombre3 = Elemento("C")
 nombre4 = Elemento("D")
+nombre5 = Elemento("D")
 
 comparar = nombre1 == nombre2
 print(comparar)
@@ -34,9 +35,11 @@ conjunto2.agregar_elemento(nombre1)
 print(conjunto2.lista_elementos)
 conjunto2.agregar_elemento(nombre3)
 print(conjunto2.lista_elementos)
+conjunto2.agregar_elemento(nombre5)
+print(conjunto2.lista_elementos)
 
 lista = conjunto + conjunto2
 print(lista)
 
-inter = Conjunto.inter(conjunto, conjunto2)
+inter = Conjunto.intersectar(conjunto, conjunto2)
 print(inter)

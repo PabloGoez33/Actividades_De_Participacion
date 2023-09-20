@@ -40,7 +40,7 @@ class Conjunto:
         return nuevo_conjunto
     
     @classmethod
-    def inter(cls, conju, conju2):
+    def intersectar(cls, conju, conju2):
         nue_conju = Conjunto(f"{conju.nombre} INTERSECTADO {conju2.nombre}")
         for elem in conju.lista_elementos:
             for elem2 in conju2.lista_elementos:
